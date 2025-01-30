@@ -1,0 +1,3 @@
+[submodule "vasha-react-component"]
+	path = vasha-react-component
+	url = git@github.com:vashavala/vasha-react-component.git

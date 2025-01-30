@@ -2,6 +2,7 @@
   "name": "apocrypha-of-ds",
   "version": "0.1.0",
   "private": true,
+  "workspaces": ["vasha-react-component"],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -11,7 +12,8 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "next": "15.1.6",
+    "@vasha/vasha-react-component": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5",
